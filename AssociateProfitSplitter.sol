@@ -30,7 +30,7 @@ contract AssociateProfitSplitter {
         msg.sender.transfer(msg.value - (amount *3));
     }
 
-    function() external payable {
+    function fallback() external payable {
         // @TODO: Enforce that the `deposit` function is called in the fallback function!
         deposit();
     }
