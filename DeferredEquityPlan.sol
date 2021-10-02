@@ -62,7 +62,7 @@ contract DeferredEquityPlan {
     }
 
     // Since we do not need to handle Ether in this contract, revert any Ether sent to the contract directly
-    function() external payable {
+    function fallback() external payable {
         revert("Do not send Ether to this contract!");
     }
 }
