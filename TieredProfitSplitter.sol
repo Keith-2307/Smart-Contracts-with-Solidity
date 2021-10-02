@@ -45,7 +45,7 @@ contract TieredProfitSplitter {
         employee_one.transfer(msg.value - total); // ceo gets the remaining wei
     }
 
-    function() external payable {
+    function fallback() external payable {
         deposit();
     }
 }
