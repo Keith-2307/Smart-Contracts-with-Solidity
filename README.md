@@ -17,16 +17,6 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 * Distribute company shares for employees in a "deferred equity incentive plan" automatically.
 
-## Coded Contracts
-
-* `AssociateProfitSplitter.sol`
-![Picture3](https://user-images.githubusercontent.com/83662813/135871519-875d3cad-9aa0-4946-9efd-b213c2705cf3.png)
-
-* `TieredProfitSplitter.sol`
-![Picture12](https://user-images.githubusercontent.com/83662813/135879164-2d129e04-a72e-4339-9920-21f9c813e1a2.png)
-
-* `DeferredEquityPlan.sol`
-![Picture2](https://user-images.githubusercontent.com/83662813/135885653-8f2d7837-3fdb-4ad2-a8fe-ce90e729a24c.gif)
 
 ## Instructions
 
@@ -84,6 +74,9 @@ Next, create the following functions:
 
 * Create a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if ether is sent directly to the contract. This is important to prevent ether from being locked in the contract, since we don't have a `withdraw` function in this use case.
 
+#### The `AssociateProfitSplitter` Contract Coded 
+![Picture3](https://user-images.githubusercontent.com/83662813/135871519-875d3cad-9aa0-4946-9efd-b213c2705cf3.png)
+
 #### Test the contract
 
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
@@ -131,6 +124,10 @@ Using the starter code, within the `deposit` function, perform the following:
   * The provided `balance` function can be used as a test to see if the logic you have in the `deposit` function is valid. Since all of the ether should be transferred to employees, this function should always return `0`, since the contract should never store ether itself.
 
   * Note: The 100 wei threshold is due to the way we calculate the points. If we send less than 100 wei, for example, 80 wei, `points` would equal `0` because `80 / 100` equals `0` because the remainder is discarded. We will learn more advanced arbitrary precision division later in the course. In this case, we can disregard the threshold as 100 wei is a significantly smaller value than the ether or Gwei units that are far more commonly used in the real world (most people aren't sending less than a penny's worth of ether).
+
+#### The The `TieredProfitSplitter` Contract Coded
+![Picture12](https://user-images.githubusercontent.com/83662813/135879164-2d129e04-a72e-4339-9920-21f9c813e1a2.png)
+
 
 ### Level Three: The `DeferredEquityPlan` Contract
 
@@ -191,6 +188,9 @@ Using the starter code, perform the following:
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
 
 * Congratulate yourself for building such complex smart contracts in your first week of Solidity! You are learning specialized skills that are highly desired in the blockchain industry!
+
+#### The `DeferredEquityPlan` Contract Coded
+![Picture2](https://user-images.githubusercontent.com/83662813/135885653-8f2d7837-3fdb-4ad2-a8fe-ce90e729a24c.gif)
 
 ### Deploy the contracts to a live Testnet
 
