@@ -216,7 +216,9 @@ After switching MetaMask to Kovan, deploy the contracts as before, and copy/keep
 
 ## Resources
 
-Building the next financial revolution isn't easy, but we need your help. Don't be intimidated by the semicolons!
+Building the next financial revolution wasn't easy, however the resources provided were of great help in coding the smart contracts.
+
+The following statement was a wonderful motivation in completing this assignment: 
 
 There are lots of great resources to learn Solidity. Remember, you are helping push the very edge of this space forward,
 so don't feel discouraged if you get stuck! In fact, be proud that you are taking on such a challenge!
