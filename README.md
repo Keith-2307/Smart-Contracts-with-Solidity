@@ -84,6 +84,9 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 In this contract, rather than splitting the profits between associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
+Employee Address before the rudimentary percentages for different tiers of employees.
+
+
 Using the starter code, within the `deposit` function, perform the following:
 
 * Calculate the number of points/units by dividing `msg.value` by `100`.
@@ -105,6 +108,11 @@ Using the starter code, within the `deposit` function, perform the following:
     * For `employee_two`, distribute `points * 25`.
 
     * For `employee_three`, distribute `points * 15`.
+
+![Picture14](https://user-images.githubusercontent.com/83662813/135881085-d0048fe7-4000-4781-9d2e-9c145ecab0d7.png)
+
+Employee Address funded with the 60/25/15 split
+![Picture15](https://user-images.githubusercontent.com/83662813/135881451-7cb4c81b-be20-49de-bc15-d18de0638a71.png)
 
   * Step 2: `total += amount;`
 
