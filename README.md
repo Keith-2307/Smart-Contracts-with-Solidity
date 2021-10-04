@@ -192,11 +192,13 @@ Using the starter code, perform the following:
 ![Picture27](https://user-images.githubusercontent.com/83662813/135890342-1717312b-fabd-4b7b-a879-eddd9980f170.png)
 
 Testing the timelock functionality with the fastforward function.
+
 (gif)
 
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
- Deferred Equity Plan contract showing the revert `fakenow` testing logic.
  
+ Deferred Equity Plan contract showing the revert `fakenow` testing logic.
+ ![Picture3](https://user-images.githubusercontent.com/83662813/135892468-003597ee-852a-4d7c-9584-7509c93c4049.gif)
  
 
 * Congratulate yourself for building such complex smart contracts in your first week of Solidity! You are learning specialized skills that are highly desired in the blockchain industry!
