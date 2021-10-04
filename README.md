@@ -179,6 +179,7 @@ Using the starter code, perform the following:
         fakenow += 100 days;
     }
     ```
+![Picture27](https://user-images.githubusercontent.com/83662813/135890342-1717312b-fabd-4b7b-a879-eddd9980f170.png)
 
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
 
