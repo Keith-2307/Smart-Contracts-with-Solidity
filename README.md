@@ -85,7 +85,7 @@ You will need to fill in the constructor parameters with your designated `employ
 
 Test the `deposit` function by sending various values. Keep an eye on the `employee` balances as you send different amounts of ether to the contract and ensure the logic is executing properly.
 
-![Remix Testing](Images/remix-test.png)
+![Picture4](https://user-images.githubusercontent.com/83662813/135876257-3968aea8-7c23-4a5f-8d72-7a1eba5d5b21.png)
 
 ### Level Two: The `TieredProfitSplitter` Contract
 
