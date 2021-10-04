@@ -85,7 +85,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 In this contract, rather than splitting the profits between associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
 Employee Address before the rudimentary percentages for different tiers of employees.
-
+![Picture13](https://user-images.githubusercontent.com/83662813/135879385-70114e6e-ef90-4927-a414-466e457a3443.png)
 
 Using the starter code, within the `deposit` function, perform the following:
 
