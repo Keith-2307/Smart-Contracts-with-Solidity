@@ -23,7 +23,7 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 ![Picture3](https://user-images.githubusercontent.com/83662813/135871519-875d3cad-9aa0-4946-9efd-b213c2705cf3.png)
 
 * `TieredProfitSplitter.sol`
-
+![Picture12](https://user-images.githubusercontent.com/83662813/135879164-2d129e04-a72e-4339-9920-21f9c813e1a2.png)
 
 * `DeferredEquityPlan.sol`
 ![Picture2](https://user-images.githubusercontent.com/83662813/135885653-8f2d7837-3fdb-4ad2-a8fe-ce90e729a24c.gif)
