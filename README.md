@@ -1,6 +1,8 @@
 # Smart-Contracts-with-Solidity
 Assignment 20
 
+This README.md file was create from the homework directive which contained the explanation of how each of the contracts works and what the motivation for each of the contracts is. The accompanied screenshots were provided to illustrate the functionality (e.g. how I sent transactions, how the transferred amount is then distributed by each of the contracts, and how the timelock functionality can be tested with the fastforward function).
+
 # Unit 20 - "Looks like we've made our first contract!"
 
 ![contract](https://image.shutterstock.com/z/stock-photo-two-hands-handshake-polygonal-low-poly-hud-illustration-smart-contract-agreement-blockchain-and-1161295627.jpg)
