@@ -17,13 +17,16 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 * Distribute company shares for employees in a "deferred equity incentive plan" automatically.
 
-## Files
+## Coded Contracts
 
-* [`AssociateProfitSplitter.sol`](Starter-Code/AssociateProfitSplitter.sol) — Level 1 starter code.
+* `AssociateProfitSplitter.sol`
+![Picture3](https://user-images.githubusercontent.com/83662813/135871519-875d3cad-9aa0-4946-9efd-b213c2705cf3.png)
 
-* [`TieredProfitSplitter.sol`](Starter-Code/TieredProfitSplitter.sol) — Level 2 starter code.
+* `TieredProfitSplitter.sol`
 
-* [`DeferredEquityPlan.sol`](Starter-Code/DeferredEquityPlan.sol) — Level 3 starter code.
+
+* `DeferredEquityPlan.sol`
+![Picture2](https://user-images.githubusercontent.com/83662813/135885653-8f2d7837-3fdb-4ad2-a8fe-ce90e729a24c.gif)
 
 ## Instructions
 
