@@ -17,17 +17,6 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 * Distribute company shares for employees in a "deferred equity incentive plan" automatically.
 
-
-## Instructions
-
-This assignment has three levels of difficulty, with each contract increasing in complexity and capability. Although it is highly recommended you complete all three contracts, you are only required to solve one of the three contracts. We recommend you start with Level 1, then move forward as you complete the challenges. You can build all three with the skills you already have!
-
-* **Level One** is an `AssociateProfitSplitter` contract. This will accept ether into the contract, and divide it evenly among associate-level employees. This will allow the human resources department to pay employees quickly and efficiently.
-
-* **Level Two** is a `TieredProfitSplitter` that will distribute different percentages of incoming ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
-
-* **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares, with an annual distribution of 250 shares over four years for a single employee.
-
 ### Starting your project
 
 Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the starter code for Level One above.
@@ -35,6 +24,8 @@ Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contrac
 While developing and testing your contract, use the [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
 ### Level One: The `AssociateProfitSplitter` Contract
+
+* **Level One** is an `AssociateProfitSplitter` contract. This will accept ether into the contract, and divide it evenly among associate-level employees. This will allow the human resources department to pay employees quickly and efficiently.
 
 At the top of your contract, you will need to define the following `public` variables:
 
@@ -89,6 +80,8 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ### Level Two: The `TieredProfitSplitter` Contract
 
+* **Level Two** is a `TieredProfitSplitter` that will distribute different percentages of incoming ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
+
 In this contract, rather than splitting the profits between associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
 Using the starter code, within the `deposit` function, perform the following:
@@ -130,6 +123,8 @@ Using the starter code, within the `deposit` function, perform the following:
 
 
 ### Level Three: The `DeferredEquityPlan` Contract
+
+* **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares, with an annual distribution of 250 shares over four years for a single employee.
 
 In this contract, we will be managing an employee's "deferred equity incentive plan," in which 1000 shares will be distributed over four years to the employee. We won't need to work with ether in this contract, but we will be storing and setting amounts that represent the number of distributed shares the employee owns, and enforcing the vetting periods automatically.
 
