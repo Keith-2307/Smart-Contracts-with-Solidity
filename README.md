@@ -1,6 +1,8 @@
 # Smart-Contracts-with-Solidity
 
-Assignment 20
+## Assignment 20
+
+![chain-g2b2f3e432_1920](https://user-images.githubusercontent.com/83662813/135938071-093af993-be2c-4323-b8c9-cc74e054ee9e.jpg)
 
 This README.md file was create from the homework directive which contained the explanation of how each of the contracts works and what the motivation for each of the contracts is. The accompanied screenshots were provided to illustrate the functionality (e.g. how I sent transactions, how the transferred amount is then distributed by each of the contracts, and how the timelock functionality can be tested with the fastforward function).
 
