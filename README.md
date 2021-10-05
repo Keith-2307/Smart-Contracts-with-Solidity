@@ -200,7 +200,7 @@ Step1: Addressed Used from Ganache
 ![DeferredEquityAddress1](https://user-images.githubusercontent.com/83662813/135948293-e519bcd3-29c3-4dfb-a3c7-09b9cc6d6535.gif)
 
 Step2: Testing Timelock Function
-(gif)
+![DeferredEquityUnlock](https://user-images.githubusercontent.com/83662813/136050297-73942f87-a519-4d4e-a49c-a8a54e9f8e86.gif)
 
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
  
