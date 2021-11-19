@@ -1,6 +1,5 @@
 # Smart-Contracts-with-Solidity
 
-## Assignment 20
 
 ![chain-g2b2f3e432_1920](https://user-images.githubusercontent.com/83662813/135938071-093af993-be2c-4323-b8c9-cc74e054ee9e.jpg)
 
